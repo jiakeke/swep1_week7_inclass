@@ -4,9 +4,9 @@ pipeline {
             // Define Docker Hub credentials ID
             DOCKERHUB_CREDENTIALS_ID = 'Docket_Hub'
             // Define Docker Hub repository name
-            DOCKERHUB_REPO = 'jiakeke/week7_inclass'
+            DOCKERHUB_REPO = 'jiakeke/week7_inclass_shopping'
             // Define Docker image tag
-            DOCKER_IMAGE_TAG = 'latest_v2'
+            DOCKER_IMAGE_TAG = 'latest_v1'
         }
     stages {
         stage('Checkout') {
